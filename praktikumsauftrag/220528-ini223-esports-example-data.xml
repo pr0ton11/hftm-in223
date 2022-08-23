@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<events  xmlns="http://hftm.ch/xmlns/esports-event-data" xmlns:lol="http://hftm.ch/xmlns/esports-event-data-lol">
+    <lol:event type="offline">
+        <organizer>Riot Games</organizer>
+        <game>League of Legends</game>
+        <version>12.8</version>
+        <title>Mid-Season Invitational</title>
+        <startDate>2022-05-10</startDate>
+        <endDate>2022-05-29</endDate>
+        <priceMoney>250000</priceMoney>
+        <streamURIs>
+            <![CDATA[
+            http://twitch.tv/riotgames,
+            https://www.youtube.com/c/lolesports
+            ]]>
+        </streamURIs>
+        <format>
+            <!-- Format describes the format of this event -->
+            <stage id="1">
+                <title>Groups</title>
+                <groups>3</groups>
+                <type>Double Round Robin</type>
+                <advancement>Top 2 teams from each group</advancement>
+            </stage>
+            <stage id="2">
+                <title>Rumble</title>
+                <groups>1</groups>
+                <type>Double Round Robin</type>
+                <advancement>Top 4 teams</advancement>
+            </stage>
+            <stage id="3">
+                <title>Knockout</title>
+                <groups>1</groups>
+                <type>Single Elimination</type>
+            </stage>
+        </format>
+        <teams>
+            <!-- Teams that will participate in this event -->
+            <team>
+                <organization>T1</organization>
+                <team>T1</team>
+                <players>
+                    <player pos="Top">Zeus</player>
+                    <player pos="Jungle">Oner</player>
+                    <player pos="Mid">Faker</player>
+                    <player pos="ADC">Gumayusi</player>
+                    <player pos="Support">Keria</player>
+                    <player pos="Sub">Asper</player>
+                </players>
+                <group>A</group>
+            </team>
+           <team>
+                <organization>G2 Esports</organization>
+                <team>G2</team>
+                <players>
+                    <player pos="Top">BrokenBlade</player>
+                    <player pos="Jungle">Jankos</player>
+                    <player pos="Mid">Caps</player>
+                    <player pos="ADC">Flakked</player>
+                    <player pos="Support">Targamas</player>
+                </players>
+                <group>C</group>
+            </team>
+        </teams>
+        <rounds>
+            <stage id="1">
+                <teams>
+                    <team>T1</team>
+                    <team>G2</team>
+                </teams>
+                <matches>
+                    <!-- Type should be either Bo1, Bo3 or Bo5 -->
+                    <match id="1" type="Bo1">
+                        <startTime>2022-05-11-12:30</startTime>
+                        <endTime>2022-05-11-13:15</endTime>
+                        <teams>
+                            <team name="T1">
+                                <!-- Player statistics-->
+                                <players>
+                                    <player id="1" name="Zeus">
+                                        <kills>5</kills>
+                                        <deaths>3</deaths>
+                                        <assists>10</assists>
+                                        <gold>19333</gold>
+                                        <cs>322</cs>
+                                    </player>
+                                    <player id="2" name="Oner">
+                                        <kills>8</kills>
+                                        <deaths>2</deaths>
+                                        <assists>13</assists>
+                                        <gold>23555</gold>
+                                        <cs>162</cs>
+                                    </player>
+                                    <player id="3" name="Faker">
+                                        <kills>3</kills>
+                                        <deaths>1</deaths>
+                                        <assists>8</assists>
+                                        <gold>15222</gold>
+                                        <cs>366</cs>
+                                    </player>
+                                    <player id="4" name="Gumayusi">
+                                        <kills>5</kills>
+                                        <deaths>4</deaths>
+                                        <assists>6</assists>
+                                        <gold>17338</gold>
+                                        <cs>388</cs>
+                                    </player>
+                                    <player id="5" name="Kerria">
+                                        <kills>0</kills>
+                                        <deaths>7</deaths>
+                                        <assists>15</assists>
+                                        <gold>12911</gold>
+                                        <cs>36</cs>
+                                    </player>
+                                </players>
+                            </team>
+                            <team name="G2">
+                                <players>
+                                    <player id="1" name="Brokenblade">
+                                        <kills>5</kills>
+                                        <deaths>3</deaths>
+                                        <assists>10</assists>
+                                        <gold>19333</gold>
+                                        <cs>322</cs>
+                                    </player>
+                                    <player id="2" name="Jankos">
+                                        <kills>8</kills>
+                                        <deaths>2</deaths>
+                                        <assists>13</assists>
+                                        <gold>23555</gold>
+                                        <cs>162</cs>
+                                    </player>
+                                    <player id="3" name="Caps">
+                                        <kills>3</kills>
+                                        <deaths>1</deaths>
+                                        <assists>8</assists>
+                                        <gold>15222</gold>
+                                        <cs>366</cs>
+                                    </player>
+                                    <player id="4" name="Flakked">
+                                        <kills>5</kills>
+                                        <deaths>4</deaths>
+                                        <assists>6</assists>
+                                        <gold>17338</gold>
+                                        <cs>388</cs>
+                                    </player>
+                                    <player id="5" name="Targamas">
+                                        <kills>0</kills>
+                                        <deaths>7</deaths>
+                                        <assists>15</assists>
+                                        <gold>12911</gold>
+                                        <cs>36</cs>
+                                    </player>
+                                </players>
+                            </team>
+                        </teams>
+                        <winner>G2</winner>
+                    </match>
+                </matches>
+                <!-- Teams advancing to the next stage -->
+                <advancement>
+                    <team>SKT</team>
+                    <team>G2</team>
+                </advancement>
+            </stage>
+        </rounds>
+    </lol:event>
+</events>
