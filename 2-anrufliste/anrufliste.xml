@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="anrufliste.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<anrufliste>
+  <kontakt vorname="Sarah" nachname="Aumair" telefon="+49631068559" email="aumairsarah@gmx.net">
+    <eingehend>
+      <anruf zeitpunkt="2011-04-20T00:51:58" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2008-04-09T21:14:24" dauer="0s" verpasst="true"/>
+    </eingehend>
+    <ausgehend>
+      <anruf zeitpunkt="2015-07-02T21:16:33" dauer="475s" angenommen="true"/>
+      <anruf zeitpunkt="2011-06-12T16:09:56" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2011-04-20T00:51:58" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2008-04-09T21:14:24" dauer="0s" angenommen="false"/>
+    </ausgehend>
+  </kontakt>
+  <kontakt vorname="Danny" nachname="Schadeberg" telefon="+41922779100" email="schadebergdanny72@web.de">
+    <eingehend>
+      <anruf zeitpunkt="2019-01-25T11:41:07" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2014-03-25T22:34:18" dauer="529s" verpasst="false"/>
+      <anruf zeitpunkt="2010-10-30T12:12:13" dauer="315s" verpasst="false"/>
+    </eingehend>
+    <ausgehend>
+      <anruf zeitpunkt="2019-01-25T11:41:07" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2017-11-27T22:00:14" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2017-09-16T06:04:50" dauer="596s" angenommen="true"/>
+      <anruf zeitpunkt="2017-05-15T13:50:09" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2017-02-15T15:14:55" dauer="128s" angenommen="true"/>
+      <anruf zeitpunkt="2014-11-28T22:39:41" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2014-10-10T12:00:53" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2014-03-25T22:34:18" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2011-03-20T17:27:51" dauer="48s" angenommen="true"/>
+      <anruf zeitpunkt="2010-10-30T12:12:13" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2006-12-06T15:58:37" dauer="35s" angenommen="true"/>
+      <anruf zeitpunkt="2004-02-05T08:15:25" dauer="0s" angenommen="false"/>
+    </ausgehend>
+  </kontakt>
+  <kontakt vorname="Wolfram" nachname="Heinl" telefon="+43234225124" email="heinlwolfram@hotmail.com">
+    <eingehend>
+      <anruf zeitpunkt="2017-03-12T00:33:24" dauer="0s" verpasst="true"/>
+    </eingehend>
+    <ausgehend>
+      <anruf zeitpunkt="2020-09-20T19:16:00" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2017-03-12T00:33:24" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2012-07-22T15:39:57" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2005-02-26T10:46:47" dauer="0s" angenommen="false"/>
+    </ausgehend>
+  </kontakt>
+  <kontakt vorname="Mika" nachname="Niermann" telefon="+41432555755" email="niermannmika79@gmx.net">
+    <eingehend>
+      <anruf zeitpunkt="2007-04-14T20:29:23" dauer="147s" verpasst="false"/>
+      <anruf zeitpunkt="2006-07-06T13:48:04" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2005-07-25T16:47:40" dauer="333s" verpasst="false"/>
+      <anruf zeitpunkt="2004-02-20T14:42:27" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2003-08-28T06:46:08" dauer="328s" verpasst="false"/>
+      <anruf zeitpunkt="2003-08-03T00:28:58" dauer="28s" verpasst="false"/>
+      <anruf zeitpunkt="2003-03-22T16:49:43" dauer="0s" verpasst="true"/>
+    </eingehend>
+    <ausgehend>
+      <anruf zeitpunkt="2011-09-22T12:49:32" dauer="179s" angenommen="true"/>
+      <anruf zeitpunkt="2008-02-03T19:02:51" dauer="79s" angenommen="true"/>
+      <anruf zeitpunkt="2007-04-14T20:29:23" dauer="248s" angenommen="true"/>
+      <anruf zeitpunkt="2006-11-22T18:17:46" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2006-07-06T13:48:04" dauer="71s" angenommen="true"/>
+      <anruf zeitpunkt="2005-07-25T16:47:40" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2004-02-20T14:42:27" dauer="405s" angenommen="true"/>
+      <anruf zeitpunkt="2003-08-28T06:46:08" dauer="66s" angenommen="true"/>
+      <anruf zeitpunkt="2003-08-03T00:28:58" dauer="517s" angenommen="true"/>
+      <anruf zeitpunkt="2003-03-22T16:49:43" dauer="323s" angenommen="true"/>
+    </ausgehend>
+  </kontakt>
+  <kontakt vorname="Guenther" nachname="De Jong" telefon="+43515837107" email="guenther.de jong@web.de">
+    <eingehend>
+      <anruf zeitpunkt="2017-01-23T13:49:23" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2013-11-03T00:49:18" dauer="407s" verpasst="false"/>
+      <anruf zeitpunkt="2011-10-07T09:09:36" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2010-05-10T09:02:28" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2009-10-14T00:27:44" dauer="149s" verpasst="false"/>
+      <anruf zeitpunkt="2007-09-24T13:17:12" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2004-08-25T21:29:33" dauer="76s" verpasst="false"/>
+      <anruf zeitpunkt="2000-12-09T01:50:42" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2000-07-13T20:13:51" dauer="36s" verpasst="false"/>
+    </eingehend>
+    <ausgehend>
+      <anruf zeitpunkt="2017-01-23T13:49:23" dauer="186s" angenommen="true"/>
+      <anruf zeitpunkt="2015-12-19T16:01:46" dauer="521s" angenommen="true"/>
+      <anruf zeitpunkt="2015-06-25T17:19:56" dauer="151s" angenommen="true"/>
+      <anruf zeitpunkt="2013-11-03T00:49:18" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2011-10-07T09:09:36" dauer="293s" angenommen="true"/>
+      <anruf zeitpunkt="2010-05-10T09:02:28" dauer="554s" angenommen="true"/>
+      <anruf zeitpunkt="2009-10-14T00:27:44" dauer="583s" angenommen="true"/>
+      <anruf zeitpunkt="2009-09-28T03:00:59" dauer="473s" angenommen="true"/>
+      <anruf zeitpunkt="2009-06-01T16:56:30" dauer="600s" angenommen="true"/>
+      <anruf zeitpunkt="2008-02-10T22:54:18" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2007-09-24T13:17:12" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2007-04-21T05:30:48" dauer="291s" angenommen="true"/>
+      <anruf zeitpunkt="2004-11-17T19:45:29" dauer="377s" angenommen="true"/>
+      <anruf zeitpunkt="2004-08-25T21:29:33" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2004-02-01T06:47:14" dauer="148s" angenommen="true"/>
+      <anruf zeitpunkt="2000-12-09T01:50:42" dauer="211s" angenommen="true"/>
+      <anruf zeitpunkt="2000-07-13T20:13:51" dauer="454s" angenommen="true"/>
+    </ausgehend>
+  </kontakt>
+  <kontakt vorname="Julian" nachname="Mauch" telefon="+49972652643" email="mauch.julian@hotmail.de">
+    <eingehend>
+      <anruf zeitpunkt="2019-12-16T02:52:20" dauer="140s" verpasst="false"/>
+      <anruf zeitpunkt="2003-02-07T05:52:52" dauer="0s" verpasst="true"/>
+    </eingehend>
+    <ausgehend>
+      <anruf zeitpunkt="2019-12-16T02:52:20" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2019-10-05T20:29:06" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2019-09-09T22:39:21" dauer="262s" angenommen="true"/>
+      <anruf zeitpunkt="2019-02-06T17:55:28" dauer="162s" angenommen="true"/>
+      <anruf zeitpunkt="2013-09-08T02:13:47" dauer="525s" angenommen="true"/>
+      <anruf zeitpunkt="2012-06-25T03:18:49" dauer="531s" angenommen="true"/>
+      <anruf zeitpunkt="2010-12-01T00:32:39" dauer="97s" angenommen="true"/>
+      <anruf zeitpunkt="2010-04-21T15:56:22" dauer="454s" angenommen="true"/>
+      <anruf zeitpunkt="2005-06-18T20:13:49" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2003-02-07T05:52:52" dauer="367s" angenommen="true"/>
+      <anruf zeitpunkt="2000-07-09T16:28:37" dauer="250s" angenommen="true"/>
+    </ausgehend>
+  </kontakt>
+  <kontakt vorname="Elvira" nachname="Lesewitz" telefon="+41584911786" email="lesewitzelvira78@gmx.net">
+    <eingehend>
+      <anruf zeitpunkt="2019-11-26T22:08:27" dauer="184s" verpasst="false"/>
+      <anruf zeitpunkt="2017-10-17T13:58:36" dauer="30s" verpasst="false"/>
+      <anruf zeitpunkt="2005-09-20T02:30:01" dauer="132s" verpasst="false"/>
+      <anruf zeitpunkt="2001-03-30T10:59:35" dauer="73s" verpasst="false"/>
+    </eingehend>
+    <ausgehend>
+      <anruf zeitpunkt="2021-03-23T21:10:44" dauer="409s" angenommen="true"/>
+      <anruf zeitpunkt="2019-11-26T22:08:27" dauer="64s" angenommen="true"/>
+      <anruf zeitpunkt="2019-04-07T09:38:58" dauer="199s" angenommen="true"/>
+      <anruf zeitpunkt="2017-10-17T13:58:36" dauer="531s" angenommen="true"/>
+      <anruf zeitpunkt="2016-10-01T17:25:22" dauer="229s" angenommen="true"/>
+      <anruf zeitpunkt="2016-08-08T16:11:32" dauer="326s" angenommen="true"/>
+      <anruf zeitpunkt="2015-01-14T17:01:47" dauer="54s" angenommen="true"/>
+      <anruf zeitpunkt="2013-05-21T14:51:52" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2008-05-31T20:50:15" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2005-09-20T02:30:01" dauer="522s" angenommen="true"/>
+      <anruf zeitpunkt="2004-11-07T18:37:59" dauer="455s" angenommen="true"/>
+      <anruf zeitpunkt="2001-03-30T10:59:35" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2000-01-23T04:50:03" dauer="163s" angenommen="true"/>
+    </ausgehend>
+  </kontakt>
+  <kontakt vorname="Silvia" nachname="Gilmer" telefon="+43252541214" email="gilmersilvia68@hotmail.ch">
+    <eingehend>
+      <anruf zeitpunkt="2021-02-05T23:19:27" dauer="352s" verpasst="false"/>
+      <anruf zeitpunkt="2020-12-07T00:24:31" dauer="122s" verpasst="false"/>
+      <anruf zeitpunkt="2013-08-12T18:29:05" dauer="0s" verpasst="true"/>
+    </eingehend>
+    <ausgehend>
+      <anruf zeitpunkt="2022-02-04T08:55:51" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2021-02-05T23:19:27" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2020-12-07T00:24:31" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2013-08-12T18:29:05" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2012-11-11T03:29:17" dauer="589s" angenommen="true"/>
+    </ausgehend>
+  </kontakt>
+  <kontakt vorname="Willi" nachname="Teichmann" telefon="+41486768104" email="willi.teichmann@gmail.com">
+    <eingehend>
+      <anruf zeitpunkt="2020-08-24T10:21:14" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2012-03-06T16:07:06" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2009-03-15T16:22:42" dauer="192s" verpasst="false"/>
+      <anruf zeitpunkt="2004-01-13T09:52:39" dauer="331s" verpasst="false"/>
+      <anruf zeitpunkt="2003-05-18T15:26:24" dauer="187s" verpasst="false"/>
+    </eingehend>
+    <ausgehend>
+      <anruf zeitpunkt="2021-05-19T08:39:50" dauer="121s" angenommen="true"/>
+      <anruf zeitpunkt="2020-08-24T10:21:14" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2016-06-19T22:14:01" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2015-08-10T12:25:43" dauer="125s" angenommen="true"/>
+      <anruf zeitpunkt="2012-05-18T23:42:13" dauer="271s" angenommen="true"/>
+      <anruf zeitpunkt="2012-03-30T04:17:00" dauer="185s" angenommen="true"/>
+      <anruf zeitpunkt="2012-03-06T16:07:06" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2012-03-06T11:18:42" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2012-02-21T12:15:57" dauer="87s" angenommen="true"/>
+      <anruf zeitpunkt="2009-03-15T16:22:42" dauer="599s" angenommen="true"/>
+      <anruf zeitpunkt="2004-01-13T09:52:39" dauer="410s" angenommen="true"/>
+      <anruf zeitpunkt="2003-08-18T05:05:35" dauer="38s" angenommen="true"/>
+      <anruf zeitpunkt="2003-05-18T15:26:24" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2000-06-13T11:58:56" dauer="0s" angenommen="false"/>
+    </ausgehend>
+  </kontakt>
+  <kontakt vorname="Robin" nachname="Goebbeler" telefon="+49642024692" email="robin.goebbeler@hotmail.ch">
+    <eingehend>
+      <anruf zeitpunkt="2021-05-20T01:35:41" dauer="92s" verpasst="false"/>
+      <anruf zeitpunkt="2013-07-31T13:46:17" dauer="580s" verpasst="false"/>
+      <anruf zeitpunkt="2012-08-28T15:17:45" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2012-01-13T04:37:03" dauer="254s" verpasst="false"/>
+      <anruf zeitpunkt="2009-10-27T08:53:30" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2003-08-16T02:59:34" dauer="363s" verpasst="false"/>
+    </eingehend>
+    <ausgehend>
+      <anruf zeitpunkt="2021-05-20T01:35:41" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2021-05-01T19:55:26" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2013-07-31T13:46:17" dauer="414s" angenommen="true"/>
+      <anruf zeitpunkt="2012-08-28T15:17:45" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2012-01-13T04:37:03" dauer="360s" angenommen="true"/>
+      <anruf zeitpunkt="2009-10-27T08:53:30" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2008-05-29T06:09:08" dauer="202s" angenommen="true"/>
+      <anruf zeitpunkt="2003-08-16T02:59:34" dauer="0s" angenommen="false"/>
+    </ausgehend>
+  </kontakt>
+  <kontakt vorname="Dorothea" nachname="Anacker" telefon="+49736239030" email="anackerdorothea@web.de">
+    <eingehend>
+      <anruf zeitpunkt="2016-10-01T16:40:00" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2009-11-06T18:48:34" dauer="0s" verpasst="true"/>
+      <anruf zeitpunkt="2001-01-20T13:45:12" dauer="0s" verpasst="true"/>
+    </eingehend>
+    <ausgehend>
+      <anruf zeitpunkt="2020-05-21T01:47:51" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2020-04-05T14:27:07" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2018-05-16T22:04:06" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2017-03-23T18:12:11" dauer="225s" angenommen="true"/>
+      <anruf zeitpunkt="2016-11-09T05:53:25" dauer="227s" angenommen="true"/>
+      <anruf zeitpunkt="2016-10-01T16:40:00" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2012-12-09T06:36:54" dauer="306s" angenommen="true"/>
+      <anruf zeitpunkt="2012-08-29T13:21:45" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2009-11-06T18:48:34" dauer="350s" angenommen="true"/>
+      <anruf zeitpunkt="2008-08-15T11:27:51" dauer="0s" angenommen="false"/>
+      <anruf zeitpunkt="2001-06-12T09:40:05" dauer="173s" angenommen="true"/>
+      <anruf zeitpunkt="2001-01-20T13:45:12" dauer="0s" angenommen="false"/>
+    </ausgehend>
+  </kontakt>
+</anrufliste>

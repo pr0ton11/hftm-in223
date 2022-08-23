@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Eigener Type für Boolean, damit String zu Boolean konvertiert werden kann -->
+    <xs:simpleType name="boolean">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="true" /> <!-- Ja -->
+            <xs:enumeration value="false" /> <!-- Nein -->
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- Anruf -->
+    <xs:element name="anruf">
+        <xs:complexType>
+            <xs:sequence minOccurs="1" maxOccurs="unbounded"></xs:sequence> <!-- Mindestens ein Anruf -->
+            <xs:attribute name="zeitpunkt" type="xs:dateTime" use="required" /> <!-- Datum -->
+            <xs:attribute name="dauer" type="xs:string" use="required" /> <!-- Dauer in (s), required da nicht angenommen / verpasst 0s -->
+            <xs:attribute name="angenommen" type="boolean" /> <!-- Hat der Anzurufende Kontakt den Anruf angenommen -->
+            <xs:attribute name="verpasst" type="boolean" /> <!-- Hat der Anzurufende Kontakt den eingehenden Anruf verpasst -->
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Eingehende Anrufliste pro Kontakt -->
+    <xs:element name="eingehend">
+        <xs:complexType>
+            <xs:sequence minOccurs="1" maxOccurs="unbounded"> <!-- Mindestens ein Anruf -->
+                <xs:element ref="anruf"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Ausgehende Anrufliste pro Kontakt -->
+    <xs:element name="ausgehend">
+        <xs:complexType>
+            <xs:sequence minOccurs="1" maxOccurs="unbounded">  <!-- Mindestens ein Anruf -->
+                <xs:element ref="anruf"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Kontakt im Adressbuch -->
+    <xs:element name="kontakt">
+        <xs:complexType>
+            <xs:sequence minOccurs="1" maxOccurs="unbounded">  <!-- Mindestens ein Anruf -->
+                <xs:element ref="eingehend"></xs:element> <!-- Liste der eingehenden Anrufe -->
+                <xs:element ref="ausgehend"></xs:element> <!-- Liste der ausgehenden Anrufe -->
+            </xs:sequence>
+            <xs:attribute name="vorname" type="xs:string" use="required" /> <!-- Vorname des Kontakts -->
+            <xs:attribute name="nachname" type="xs:string" use="required" /> <!-- Nachname des Kontakts -->
+            <xs:attribute name="telefon" type="xs:string" use="required" /> <!-- Telefonnummer des Kontakts -->
+            <xs:attribute name="email" type="xs:string" use="required" /> <!-- E-Mail Adresse des Kontakts -->
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Root für Anrufliste --> 
+    <xs:element name="anrufliste">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                    <xs:element ref="kontakt"></xs:element> <!-- Liste der Kontakte -->
+                </xs:sequence>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
