@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Spieler -->
+    <xs:element name="player">
+        <xs:complexType>
+            <xs:attribute name="name" type="xs:string" use="required" /> <!-- Name des Spielers -->
+            <xs:attribute name="position" type="xs:string" use="required" /> <!-- Position des Spielers -->
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Team -->
+    <xs:element name="team">
+        <xs:complexType>
+            <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                <xs:element ref="player"></xs:element> <!-- Liste der Spieler -->
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:int" use="required" /> <!-- ID des Teams im Spiel -->
+            <xs:attribute name="dragons" type="xs:int" use="required" /> <!-- Anzahl der Drachen während des Spiels -->
+            <xs:attribute name="barons" type="xs:int" use="required" /> <!-- Anzahl der Barone während des Spiels -->
+            <xs:attribute name="gold" type="xs:int" use="required" /> <!-- Anzahl der Goldes während des Spiels -->
+            <xs:attribute name="kills" type="xs:int" use="required" /> <!-- Anzahl der Kills während des Spiels -->
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Game -->
+    <xs:element name="game">
+        <xs:complexType>
+            <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                <xs:element ref="team"></xs:element> <!-- Liste der Teams -->
+            </xs:sequence>
+            <xs:attribute name="laenge" type="xs:double" use="required" /> <!-- Länge des Spiels in Minuten -->
+            <xs:attribute name="gewinner" type="xs:int" use="required" /> <!-- ID des Gewinner Teams -->
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Turnier -->
+    <xs:element name="turnier">
+        <xs:complexType>
+            <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                <xs:element ref="game"></xs:element> <!-- Liste der Games -->
+            </xs:sequence>
+            <xs:attribute name="titel" type="xs:string" use="required" /> <!-- Titel des Turniers des Kontakts -->
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Root für Turniere --> 
+    <xs:element name="turniere">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:sequence minOccurs="1" maxOccurs="unbounded">
+                    <xs:element ref="turnier"></xs:element> <!-- Liste der Turniere -->
+                </xs:sequence>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
